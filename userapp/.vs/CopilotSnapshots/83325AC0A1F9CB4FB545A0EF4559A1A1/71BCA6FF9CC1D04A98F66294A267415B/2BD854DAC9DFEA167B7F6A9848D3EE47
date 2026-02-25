@@ -1,0 +1,57 @@
+﻿@using userapp.ViewModels;
+@model LoginViewModel;
+@{
+ViewData["Title"] = "Login";
+Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+<div class="account-container">
+    <div class="account-box">
+        <h2 class="text-center mb-4">@(!string.IsNullOrEmpty(Model.Role) ? (Model.Role + " Login") : "Login")</h2>
+
+        <div class="btn-group d-flex mb-3" role="group">
+            <a class="btn btn-outline-secondary w-25 role-btn @(Model.Role == "Admin" ? "active" : "")" asp-action="Login" asp-route-role="Admin">Admin</a>
+            <a class="btn btn-outline-secondary w-25 role-btn @(Model.Role == "Storeman" ? "active" : "")" asp-action="Login" asp-route-role="Storeman">Storeman</a>
+            <a class="btn btn-outline-secondary w-25 role-btn @(Model.Role == "Employee" ? "active" : "")" asp-action="Login" asp-route-role="Employee">Employee</a>
+            <a class="btn btn-outline-secondary w-25 role-btn @(Model.Role == "Customer" ? "active" : "")" asp-action="Login" asp-route-role="Customer">Customer</a>
+        </div>
+
+        <form asp-action="Login" method="post">
+            <input type="hidden" asp-for="Role" />
+            <div asp-validation-summary="ModelOnly"class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="float-end">
+                <a asp-controller="Account"asp-action="verifyEmail"class="text-decoration-none">
+                    Forgot password?
+                </a>
+
+            </div>
+            <div class="mb-3 form-check">
+                <input asp-for="RememberMe" class="form-check-input" type="checkbox" />
+                <label asp-for="RememberMe" class="form-check-label"></label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+<p class="text-center mt-2">
+    Don't have an account?<a asp-controller="Account"asp-action="Register" class="text-decoration-none">Register</a>
+</p>
+            <div class="text-center">
+                <a asp-controller="Home" asp-action="Index"class="texxt-decoration-none mt-3">Back</a>
+
+            </div>
+                </form>
+    </div>
+
+</div>
+@section Scripts{
+@{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial.cshtml");
+    }
+}

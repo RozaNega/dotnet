@@ -1,0 +1,140 @@
+﻿.account-container {
+    background-image: url('/css/Images/image3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.account-box {
+    width: 700px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15); /* transparent white */
+    backdrop-filter: blur(15px); /* blur effect */
+    -webkit-backdrop-filter: blur(15px); /* Safari support */
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+button {
+    color:blue;
+    transition: all 0.3s ease;
+}
+
+    button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+input {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    color: #000;
+}
+h2 {
+    color: white;
+    font-weight:bold;
+    font-size:50px;
+}
+
+/* Role buttons styling */
+.role-btn {
+    border: 1px solid rgba(255,255,255,0.12);
+    color: #fff;
+    background: rgba(255,255,255,0.04);
+    transition: all 0.25s ease;
+}
+
+.role-btn:hover {
+    transform: translateY(-3px);
+    background: rgba(255,255,255,0.06);
+}
+
+.role-btn.active {
+    background: linear-gradient(90deg, rgba(58,123,213,0.95), rgba(0,210,255,0.85));
+    border-color: rgba(255,255,255,0.25);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    color: #fff;
+}
+
+/* Fancy primary button */
+.btn-primary {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    border: none;
+    color: #fff;
+    padding: 12px 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px) scale(1.01);
+}
+
+/* Links inside account box (Forgot password, Back, Register links) */
+.account-box a.text-decoration-none,
+.account-box a.texxt-decoration-none {
+    color: #BEE9FF; /* pale cyan */
+    font-weight: 600;
+    transition: color 0.2s ease, transform 0.15s ease;
+}
+
+.account-box a.text-decoration-none:hover,
+.account-box a.texxt-decoration-none:hover {
+    color: #E6F9FF;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+/* Make small inline action links a bit more prominent */
+.account-box .float-end a {
+    color: #99ddff;
+}
+
+/* Outline buttons (role buttons) color tweak */
+.btn-outline-secondary {
+    color: #dff6ff;
+    border-color: rgba(255,255,255,0.12);
+    background: transparent;
+}
+
+.btn-outline-secondary:hover {
+    color: #ffffff;
+    background: rgba(255,255,255,0.06);
+    border-color: rgba(255,255,255,0.18);
+}
+
+/* Inputs */
+.form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0,0,0,0.08);
+    padding: 14px 16px;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 6px 18px rgba(27,117,228,0.12);
+    border-color: rgba(27,117,228,0.8);
+}
+
+/* Subtle header subtitle */
+.account-box h2 + .subtitle {
+    text-align: center;
+    color: rgba(255,255,255,0.85);
+    margin-top: -10px;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .account-box { width: 95%; padding: 24px; }
+    h2 { font-size: 32px; }
+    .btn-group .w-25 { width: 25% !important; }
+}

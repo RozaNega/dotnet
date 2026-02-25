@@ -1,0 +1,109 @@
+﻿@using userapp.ViewModels;
+@model LoginViewModel;
+@{
+ViewData["Title"] = "Login";
+Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+<div class="account-container">
+    <div class="account-box">
+        <h2 class="text-center mb-4">@(!string.IsNullOrEmpty(Model.Role) ? (Model.Role + " Login") : "Login")</h2>
+        <div class="subtitle">Welcome back — sign in to continue to your dashboard</div>
+
+        <div class="role-segment mb-4" role="tablist" aria-label="Select role">
+            <label class="role-option @(Model.Role == "Admin" ? "active" : "")">
+                <input type="radio" name="roleOption" value="Admin" class="role-radio" aria-hidden="true" />
+                <span class="role-emoji">👑</span>
+                <span class="role-text">Admin</span>
+            </label>
+            <label class="role-option @(Model.Role == "Storeman" ? "active" : "")">
+                <input type="radio" name="roleOption" value="Storeman" class="role-radio" aria-hidden="true" />
+                <span class="role-emoji">📦</span>
+                <span class="role-text">Storeman</span>
+            </label>
+            <label class="role-option @(Model.Role == "Employee" ? "active" : "")">
+                <input type="radio" name="roleOption" value="Employee" class="role-radio" aria-hidden="true" />
+                <span class="role-emoji">💼</span>
+                <span class="role-text">Employee</span>
+            </label>
+            <label class="role-option @(Model.Role == "Customer" ? "active" : "")">
+                <input type="radio" name="roleOption" value="Customer" class="role-radio" aria-hidden="true" />
+                <span class="role-emoji">🛒</span>
+                <span class="role-text">Customer</span>
+            </label>
+        </div>
+
+        <form asp-action="Login" method="post">
+            <input type="hidden" asp-for="Role" id="RoleInput" />
+            <div asp-validation-summary="ModelOnly"class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="float-end">
+                <a asp-controller="Account"asp-action="verifyEmail"class="text-decoration-none">
+                    Forgot password?
+                </a>
+
+            </div>
+            <div class="mb-3 form-check">
+                <input asp-for="RememberMe" class="form-check-input" type="checkbox" />
+                <label asp-for="RememberMe" class="form-check-label"></label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100"><span class="me-2">🔐</span>Sign in</button>
+<p class="text-center mt-2">
+    Don't have an account?<a asp-controller="Account"asp-action="Register" class="text-decoration-none">Register</a>
+</p>
+            <div class="text-center">
+                <a asp-controller="Home" asp-action="Index"class="texxt-decoration-none mt-3">Back</a>
+
+            </div>
+                </form>
+    </div>
+
+</div>
+@section Scripts{
+@{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial.cshtml");
+    }
+
+<script>
+    (function () {
+        const roleButtons = document.querySelectorAll('.role-btn');
+        const roleInput = document.getElementById('RoleInput');
+        const heading = document.querySelector('.account-box h2');
+        const subtitle = document.querySelector('.account-box .subtitle');
+
+        function setRole(role) {
+            // update hidden input
+            if (roleInput) roleInput.value = role || '';
+
+            // update active states
+            roleButtons.forEach(b => {
+                if (b.dataset.role === role) b.classList.add('active'); else b.classList.remove('active');
+            });
+
+            // update heading text
+            if (heading) heading.textContent = role ? (role + ' Login') : 'Login';
+            if (subtitle) subtitle.textContent = role ? ('Sign in to your ' + role + ' account') : 'Welcome back — sign in to continue to your dashboard';
+        }
+
+        roleButtons.forEach(btn => {
+            btn.addEventListener('click', function () {
+                setRole(this.dataset.role);
+            });
+        });
+
+        // initialize from server-side model value
+        document.addEventListener('DOMContentLoaded', function () {
+            const initialRole = roleInput ? roleInput.value : '';
+            if (initialRole) setRole(initialRole);
+        });
+    })();
+</script>
+}

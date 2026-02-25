@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A\\source\\repos\\Loginsimple\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|c:\\users\\a\\source\\repos\\loginsimple\\loginsimple\\areas\\identity\\data\\loginsimplecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|solutionrelative:loginsimple\\areas\\identity\\data\\loginsimplecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|c:\\users\\a\\source\\repos\\loginsimple\\loginsimple\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|solutionrelative:loginsimple\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|c:\\users\\a\\source\\repos\\loginsimple\\loginsimple\\migrations\\20260213145056_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|solutionrelative:loginsimple\\migrations\\20260213145056_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|c:\\users\\a\\source\\repos\\loginsimple\\loginsimple\\areas\\identity\\data\\loginsimpleuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|solutionrelative:loginsimple\\areas\\identity\\data\\loginsimpleuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|c:\\users\\a\\source\\repos\\loginsimple\\loginsimple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|solutionrelative:loginsimple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|c:\\users\\a\\source\\repos\\loginsimple\\loginsimple\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|solutionrelative:loginsimple\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|c:\\users\\a\\source\\repos\\loginsimple\\loginsimple\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|solutionrelative:loginsimple\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|c:\\users\\a\\source\\repos\\loginsimple\\loginsimple\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{60703EF3-DD27-BBC4-F359-1B2C256F4A1A}|Loginsimple\\Loginsimple.csproj|solutionrelative:loginsimple\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\appsettings.json",
+              "RelativeDocumentMoniker": "Loginsimple\\appsettings.json",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\appsettings.json",
+              "RelativeToolTip": "Loginsimple\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-13T14:51:31.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260213145056_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Migrations\\20260213145056_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Loginsimple\\Migrations\\20260213145056_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Migrations\\20260213145056_InitialMigration.cs",
+              "RelativeToolTip": "Loginsimple\\Migrations\\20260213145056_InitialMigration.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:50:56.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginsimpleContext.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Areas\\Identity\\Data\\LoginsimpleContext.cs",
+              "RelativeDocumentMoniker": "Loginsimple\\Areas\\Identity\\Data\\LoginsimpleContext.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Areas\\Identity\\Data\\LoginsimpleContext.cs",
+              "RelativeToolTip": "Loginsimple\\Areas\\Identity\\Data\\LoginsimpleContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:40:48.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginsimpleUser.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Areas\\Identity\\Data\\LoginsimpleUser.cs",
+              "RelativeDocumentMoniker": "Loginsimple\\Areas\\Identity\\Data\\LoginsimpleUser.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Areas\\Identity\\Data\\LoginsimpleUser.cs",
+              "RelativeToolTip": "Loginsimple\\Areas\\Identity\\Data\\LoginsimpleUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:38:59.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Program.cs",
+              "RelativeDocumentMoniker": "Loginsimple\\Program.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Program.cs",
+              "RelativeToolTip": "Loginsimple\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:35:19.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Loginsimple\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Loginsimple\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T14:31:52.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Loginsimple\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Loginsimple\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T14:29:58.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Loginsimple\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\Loginsimple\\Loginsimple\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Loginsimple\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-02-13T14:28:21.374Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

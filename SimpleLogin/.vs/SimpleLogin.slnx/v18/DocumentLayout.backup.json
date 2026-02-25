@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A\\source\\repos\\SimpleLogin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE82BB1-352C-6613-A351-B384F22D00D1}|SimpleLogin\\SimpleLogin.fsproj|c:\\users\\a\\source\\repos\\simplelogin\\simplelogin\\controllers\\homecontroller.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{DAE82BB1-352C-6613-A351-B384F22D00D1}|SimpleLogin\\SimpleLogin.fsproj|solutionrelative:simplelogin\\controllers\\homecontroller.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE82BB1-352C-6613-A351-B384F22D00D1}|SimpleLogin\\SimpleLogin.fsproj|c:\\users\\a\\source\\repos\\simplelogin\\simplelogin\\models\\errorviewmodel.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{DAE82BB1-352C-6613-A351-B384F22D00D1}|SimpleLogin\\SimpleLogin.fsproj|solutionrelative:simplelogin\\models\\errorviewmodel.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE82BB1-352C-6613-A351-B384F22D00D1}|SimpleLogin\\SimpleLogin.fsproj|c:\\users\\a\\source\\repos\\simplelogin\\simplelogin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAE82BB1-352C-6613-A351-B384F22D00D1}|SimpleLogin\\SimpleLogin.fsproj|solutionrelative:simplelogin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE82BB1-352C-6613-A351-B384F22D00D1}|SimpleLogin\\SimpleLogin.fsproj|c:\\users\\a\\source\\repos\\simplelogin\\simplelogin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAE82BB1-352C-6613-A351-B384F22D00D1}|SimpleLogin\\SimpleLogin.fsproj|solutionrelative:simplelogin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.fs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\SimpleLogin\\SimpleLogin\\Controllers\\HomeController.fs",
+              "RelativeDocumentMoniker": "SimpleLogin\\Controllers\\HomeController.fs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\SimpleLogin\\SimpleLogin\\Controllers\\HomeController.fs",
+              "RelativeToolTip": "SimpleLogin\\Controllers\\HomeController.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-15T10:33:39.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.fs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\SimpleLogin\\SimpleLogin\\Models\\ErrorViewModel.fs",
+              "RelativeDocumentMoniker": "SimpleLogin\\Models\\ErrorViewModel.fs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\SimpleLogin\\SimpleLogin\\Models\\ErrorViewModel.fs",
+              "RelativeToolTip": "SimpleLogin\\Models\\ErrorViewModel.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-15T10:33:34.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\SimpleLogin\\SimpleLogin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SimpleLogin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\SimpleLogin\\SimpleLogin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SimpleLogin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T10:33:28.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\SimpleLogin\\SimpleLogin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SimpleLogin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\SimpleLogin\\SimpleLogin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SimpleLogin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T10:33:25.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

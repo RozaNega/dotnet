@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="login">
+    <resource name="FSharpSignatureData.login" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.login" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.login" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.login" action="remove"></resource>
+    <resource name="FSharpOptimizationData.login" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.login" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.login" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.login" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.login" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.login" action="remove"></resource>
+  </assembly>
+</linker>

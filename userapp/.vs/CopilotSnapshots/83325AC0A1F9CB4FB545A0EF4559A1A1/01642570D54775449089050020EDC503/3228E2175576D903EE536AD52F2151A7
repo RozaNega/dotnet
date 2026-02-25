@@ -1,0 +1,13 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-TN3Q9O5\\SQLEXPRESS;Database=UserAppDb;Trusted_Connection=True;TrustServerCertificate=True;"
+  },
+  "AllowedHosts": "*"
+
+}

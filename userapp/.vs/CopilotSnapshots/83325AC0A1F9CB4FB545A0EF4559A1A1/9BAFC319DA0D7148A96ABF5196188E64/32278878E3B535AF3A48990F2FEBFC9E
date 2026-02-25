@@ -1,0 +1,95 @@
+﻿@using userapp.Models
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<users> UserManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-4">
+    @if (User?.Identity != null && User.Identity.IsAuthenticated)
+    {
+        var currentUser = await UserManager.GetUserAsync(User);
+        var roles = currentUser != null ? await UserManager.GetRolesAsync(currentUser) : new List<string>();
+
+        <div class="text-center mb-4">
+            <h1 class="display-4">Welcome, @((currentUser?.FullName) ?? User.Identity.Name)</h1>
+            <p class="lead">You are signed in as: <strong>@string.Join(", ", roles)</strong></p>
+        </div>
+
+        <div class="row g-3">
+            @* Admin card *@
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Administrator</h5>
+                        <p class="card-text">Admins manage users and roles, configure system settings, and view reports. Use the Admin Dashboard to perform administrative tasks.</p>
+                        @if (roles.Contains("Admin"))
+                        {
+                            <a class="btn btn-primary" asp-controller="Admin" asp-action="AdminDashboard">Go to Admin Dashboard</a>
+                        }
+                        else
+                        {
+                            <small class="text-muted">Contact your administrator to request admin access.</small>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            @* Storeman card *@
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Storeman</h5>
+                        <p class="card-text">Storemen manage inventory, receive and ship goods, and update stock levels. Access the Store Dashboard to manage inventory tasks.</p>
+                        @if (roles.Contains("Storeman"))
+                        {
+                            <a class="btn btn-primary" asp-controller="Store" asp-action="StoreDashboard">Go to Store Dashboard</a>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            @* Employee card *@
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Employee</h5>
+                        <p class="card-text">Employees handle day-to-day operations, view tasks assigned to them, and update their progress. The Employee Dashboard shows your tasks and schedule.</p>
+                        @if (roles.Contains("Employee"))
+                        {
+                            <a class="btn btn-primary" asp-controller="Employee" asp-action="EmployeeDashboard">Go to Employee Dashboard</a>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            @* Customer card *@
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Customer</h5>
+                        <p class="card-text">Customers can browse products, place orders, and view their order history. Visit the Customer Dashboard to see your orders and profile.</p>
+                        @if (roles.Contains("Customer"))
+                        {
+                            <a class="btn btn-primary" asp-controller="Customer" asp-action="CustomerDashboard">Go to Customer Dashboard</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center">
+            <form asp-controller="Account" asp-action="Logout" method="post">
+                <button type="submit" class="btn btn-outline-secondary">Sign out</button>
+            </form>
+        </div>
+    }
+    else
+    {
+        <div class="text-center">
+            <h1 class="display-4">Welcome</h1>
+            <p>Please <a asp-controller="Account" asp-action="Login">sign in</a> to access your dashboard and role-specific features.</p>
+        </div>
+    }
+</div>

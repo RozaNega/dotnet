@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A\\source\\repos\\Loginpage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|c:\\users\\a\\source\\repos\\loginpage\\loginpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": []
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "1b61056a-31ff-4e44-95c5-23db879cca53",
+        "Display": 0,
+        "X": 345,
+        "Y": 62,
+        "Width": 1444,
+        "Height": 818,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\Loginpage\\Loginpage\\Form1.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Form1.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\Loginpage\\Loginpage\\Form1.cs [Design]",
+              "RelativeToolTip": "Loginpage\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T13:44:02.903Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

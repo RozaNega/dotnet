@@ -1,0 +1,42 @@
+﻿.account-container {
+    background-image: url('/css/Images/image3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.account-box {
+    width: 700px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15); /* transparent white */
+    backdrop-filter: blur(15px); /* blur effect */
+    -webkit-backdrop-filter: blur(15px); /* Safari support */
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+button {
+    color:blue;
+    transition: all 0.3s ease;
+}
+
+    button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+input {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    color: #000;
+}
+h2 {
+    color: white;
+    font-weight:bold;
+    font-size:50px;
+}

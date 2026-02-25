@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A\\source\\repos\\student.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|c:\\users\\a\\source\\repos\\student.api\\student.api\\controllers\\studentmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|solutionrelative:student.api\\controllers\\studentmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|c:\\users\\a\\source\\repos\\student.api\\student.api\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|solutionrelative:student.api\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|c:\\users\\a\\source\\repos\\student.api\\student.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|solutionrelative:student.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|c:\\users\\a\\source\\repos\\student.api\\student.api\\model\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|solutionrelative:student.api\\model\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|c:\\users\\a\\source\\repos\\student.api\\student.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|solutionrelative:student.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|c:\\users\\a\\source\\repos\\student.api\\student.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|solutionrelative:student.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|c:\\users\\a\\source\\repos\\student.api\\student.api\\student.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|solutionrelative:student.api\\student.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|c:\\users\\a\\source\\repos\\student.api\\student.api\\student.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|solutionrelative:student.api\\student.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|c:\\users\\a\\source\\repos\\student.api\\student.api\\student.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{BBFCD93D-7484-D4A1-2B84-1C6A3B6F122A}|student.api\\student.api.csproj|solutionrelative:student.api\\student.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "student.api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "student.api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-15T11:28:48.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "student.api",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\student.api.csproj",
+              "RelativeDocumentMoniker": "student.api\\student.api.csproj",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\student.api.csproj",
+              "RelativeToolTip": "student.api\\student.api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-15T11:27:47.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "student.api.http",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\student.api.http",
+              "RelativeDocumentMoniker": "student.api\\student.api.http",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\student.api.http",
+              "RelativeToolTip": "student.api\\student.api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-14T21:00:14.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentMasterController.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Controllers\\StudentMasterController.cs",
+              "RelativeDocumentMoniker": "student.api\\Controllers\\StudentMasterController.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Controllers\\StudentMasterController.cs",
+              "RelativeToolTip": "student.api\\Controllers\\StudentMasterController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwBYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T19:41:59.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "student.api\\Model\\Student.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Model\\Student.cs",
+              "RelativeToolTip": "student.api\\Model\\Student.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T19:23:44.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Program.cs",
+              "RelativeDocumentMoniker": "student.api\\Program.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Program.cs",
+              "RelativeToolTip": "student.api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T19:16:34.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Model\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "student.api\\Model\\StudentDbContext.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\Model\\StudentDbContext.cs",
+              "RelativeToolTip": "student.api\\Model\\StudentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T19:12:20.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "student.api.csproj",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\student.api.csproj",
+              "RelativeDocumentMoniker": "student.api\\student.api.csproj",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\student.api.csproj",
+              "RelativeToolTip": "student.api\\student.api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-14T19:10:47.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\appsettings.json",
+              "RelativeDocumentMoniker": "student.api\\appsettings.json",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\student.api\\student.api\\appsettings.json",
+              "RelativeToolTip": "student.api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-14T19:06:27.523Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
